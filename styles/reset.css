@@ -1,0 +1,80 @@
+h1 {
+    position: relative;
+    padding: 25px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-bottom: 1px;
+}
+
+.col-lg-3 {
+    width: 600px;
+}
+
+/* main forecast box */
+.container-fluid {
+    display: flexbox;
+    background-color: antiquewhite;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-color: rgb(121, 185, 211);
+    border-radius: 7px;
+    padding: 20px;
+    padding-right: 60px;
+    margin: 50px;
+    margin-right: 75px;
+    margin-top: 2px;
+    margin-left: 55px;
+    line-height: 33px;
+
+}
+h4 {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(194, 194, 230);
+}
+
+
+#history {
+    padding-top: 20px;
+    width: 100%
+}
+
+#five-day-forecast {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#day1,#day2,#day3,#day4,#day5 {
+    background-color: rgb(209, 226, 221);
+    color: blue;
+    border-radius: 15px;
+}
+
+#date1 {
+    padding-top: 10px;
+}
+
+img {
+ height: 120px;
+ margin-left: 5px;;
+}
+
+#date2,#date3,#date4,#date5 {
+    padding-top: 10px;
+}
+
+#temp1,#temp2,#temp3,#temp4,#temp5 {
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+#humidity1,#humidity2,#humidity3,#humididty4,#humididty5 {
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
